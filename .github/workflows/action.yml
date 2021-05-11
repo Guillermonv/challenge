@@ -3,7 +3,7 @@ name: Deploy Lambda Workflow - RELEASE CANDIDATE
 on:
   push:
     branches:
-      - master
+      - main
 
 steps:
   - uses: actions/checkout@v2
